@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS CHECKBOXES;  
+create table CHECKBOXES(
+  ID int not null AUTO_INCREMENT,
+  OPTIONSLIST varchar(100) not null,
+  PRIMARY KEY ( ID )
+);
+
+DROP TABLE IF EXISTS CHECKEDOPTIONS;  
+create table CHECKEDOPTIONS(
+  ID int not null AUTO_INCREMENT,
+  CHECKED varchar(100) not null,
+  PRIMARY KEY ( ID )
+);
+
