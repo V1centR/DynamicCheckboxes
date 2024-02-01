@@ -3,7 +3,7 @@ Este é um backEnd que faz o gerenciamento de checkboxes dinâmicos de um front 
 
 Contém um database H2 em memória com duas tabelas: "checkboxes disponíveis" e "checkboxes marcados", a tabela de marcados já recebe uma string no formato "optionA:optionB:optionC" para o persist na tabela.
 
-Collections estão disponíveis para testes no Postman.
+Collections estão disponíveis para testes no Postman em /Collections.
 
 
 
@@ -14,6 +14,7 @@ Collections estão disponíveis para testes no Postman.
 - H2 database 2.2.220
 - Lombook
 - Arquitetura Hexagonal
+- FrontEnd Angular https://github.com/V1centR/DynamicCheckboxesFront
 
 
 ## Instalação
